@@ -360,36 +360,6 @@ body {
   font-family: Tahoma, Arial;
 }
 
-nav {
-  width: 100%;
-  background-color: #4d5791;
-  height: 44px;
-  padding: 0 40px;
-}
-
-nav ul,
-nav ul li {
-  margin: 0;
-  padding: 0 ;
-  list-style: none;
-  display: inline-block;
-}
-
-nav ul li a {
-  display: block;
-  padding: 0 20px;
-  line-height: 44px;
-  font-size: 1.4em;
-  text-decoration: none;
-  color: #fff;
-  margin: 0;
-}
-
-nav ul li a:hover  {
-  background-color: white;
-  color: #4d5791;
-}
-
 div.hero {
   height: 350px;
   background-color: #b4c6f0;
@@ -400,13 +370,12 @@ div.hero {
   padding-top: 40px;
 }
 
-div.hero h1,
-div.hero h2 {
+div.hero {
   text-align: center;
   margin: 0;
 }
 
-div.hero h1 {
+div.hero a {
   color: #fff;
   font-size: 4.2em;
   margin-bottom: 20px;
